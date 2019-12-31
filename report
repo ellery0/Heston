@@ -1,0 +1,58 @@
+# European Option Pricing in Heston Model
+
+**Abstract**  
+In this project, we consider four Monte Carlo simulation methods for European option pricing in Heston Model.
+
+
+Heston model  
+Monte Carlo simulation
+
+
+## Introduction
+
+Black-Scholes Model but it assumes constant variance of the , which is
+not realistic in practical stock markets. Heston model assumes
+stochastic $v_t$ follows Cox, Ingersoll and Ross(1985) process.
+
+$$
+\begin{aligned} d S_{t} &=\mu S_{t} d t+\sqrt{v_{t}} S_{t} d W_{1, t} \\ d v_{t} &=\kappa\left(\theta-v_{t}\right) d t+\sigma \sqrt{v_{t}} d W_{2, t} \end{aligned}
+$$
+
+
+
+
+## Methods
+
+### 1.Euler Scheme 
+
+### 2.Milstein Scheme 
+
+#### 2.1 Explicit Milstein Scheme
+
+#### 2.2 Implicit Milstein Scheme
+
+#### 2.3 Weighted Implicit Milstein Scheme
+
+
+### 3.QE  
+
+### 
+
+## Numerical Test  
+
+
+## Reference  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
